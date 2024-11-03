@@ -3,6 +3,11 @@ resource "azurerm_resource_group" "rg" {
   location = "central india"
 }
 
+resource "azurerm_resource_group" "rg" {
+  name     = "rg-vasu2"
+  location = "central india"
+}
+
 # resource "azurerm_virtual_network" "vnet" {
 #   name                = ""
 #   address_space       = ["10.0.0.0/16"]
